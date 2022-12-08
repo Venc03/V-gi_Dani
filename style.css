@@ -1,0 +1,56 @@
+body{
+    
+}
+
+main{
+    border: 2px solid dimgray;
+    width: 70%;
+    position: relative;
+    padding-top: 100px;
+}
+
+header{
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: aqua;
+}
+
+footer{
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: aqua;
+}
+
+nav{
+    border: 2px solid dimgray;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+.szamgep{
+    border: 2px solid dimgray;
+}
+
+.art{
+    border: 2px solid dimgray;
+}
+
+form{
+    position: fixed;
+    top: 50%;
+    left: calc((100% - 100px) / 2)
+}
+
+.butt{
+    padding: 5px;
+    margin: 5px;
+}
+
+.sz{
+    margin-bottom: 20px;
+}
